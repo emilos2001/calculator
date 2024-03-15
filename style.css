@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    margin: 100px;
+    background-color: rgb(80, 80, 142);
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.display{
+    width: 615px;
+    height: 200px;
+    border: none;
+    font: 40px sans-serif;
+    background-color: rgb(202, 202, 239);
+    border-radius: 15px;
+}
+
+.ac-btn{
+    background-color: rgb(221, 182, 241);
+}
+
+.ac-btn:hover{
+    background-color: rgb(129, 124, 133);
+}
+
+.operator-btn, .parenthesis{
+    background-color: rgb(201, 216, 225);
+}
+
+button{
+   width: 100px;  
+   height: 100px;
+   border-radius: 30px;
+   border-radius: 50px;
+   border: none;
+   color: black;
+   font-size: 30px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: 0.3s, background-color 0.3s ease;
+    
+ }
+.parenthesis{
+    font-size: 30px;
+}
+.special-char{
+    border: none;
+    margin-right: 10px;
+    background-color: white;
+    transition: 0.6s, background-color 0.3s ease;
+}
+.special-char{
+    height: 50px;
+    margin-top: 15px;
+    font: bold;
+    margin-bottom: 35px;
+}
+.special-char:hover{
+    border-radius: 40px;
+    background-color: rgb(223, 223, 223);
+
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 150px); 
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+button:hover{
+    background-color: rgb(168, 189, 203);
+    border-radius: 25px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <input class="display" readonly>
+        <div class="keys">
+            <button onclick="appendToDisplay('√')" class="special-char">√</button>
+            <button onclick="appendToDisplay('&pi;')" class="special-char">&pi;</button>
+            <button onclick="appendToDisplay('^')" class="special-char">^</button>
+            <button onclick="appendToDisplay('!')" class="special-char">!</button>
+            <button onclick="clearScreen(' ')" class="ac-btn">AC</button>
+            <button onclick="parenthesis('&#40;')" class="parenthesis">&#40;&#41;</button>
+            <button onclick="appendToDisplay('%')" class="operator-btn">%</button>
+            <button onclick="appendToDisplay('/')" class="operator-btn">&#247;</button>
+            <button onclick="appendToDisplay('7')" class="num">7</button>
+            <button onclick="appendToDisplay('8')" class="num">8</button>
+            <button onclick="appendToDisplay('9')" class="num">9</button>
+            <button onclick="appendToDisplay('*')" class="operator-btn">&#215;</button>
+            <button onclick="appendToDisplay('4')" class="num">4</button>
+            <button onclick="appendToDisplay('5')" class="num">5</button>
+            <button onclick="appendToDisplay('6')" class="num">6</button>
+            <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+            <button onclick="appendToDisplay('1')" class="num">1</button>
+            <button onclick="appendToDisplay('2')" class="num">2</button>
+            <button onclick="appendToDisplay('3')" class="num">3</button>
+            <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+            <button onclick="appendToDisplay('0')" class="num">0</button>
+            <button onclick="appendToDisplay('.')" class="dot">.</button>
+            <button onclick="deleteCharacter(' ')" class="del">X</button>
+            <button onclick="equal()" class="operator-btn">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
